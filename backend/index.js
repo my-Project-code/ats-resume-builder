@@ -421,10 +421,11 @@ const gracefulShutdown = (signal) => {
     console.log('🔄 HTTP server closed');
     
     if (mongoose.connection.readyState === 1) {
-      mongoose.connection.close(() => {
-        console.log('🔄 MongoDB connection closed');
-        process.exit(0);
-      });
+      mongoose.connection.close()
+        .then(() => {
+          console.log('🔄 MongoDB connection closed');
+          process.exit(0);
+        });
     } else {
       process.exit(0);
     }
