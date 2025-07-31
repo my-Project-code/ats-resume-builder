@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 💼 ATS Resume Builder
 
 > **A fully functional, AI-powered resume builder built with React, Firebase, Gemini AI, Node.js, and MongoDB.**
@@ -243,3 +244,6 @@ If you find this useful, please consider ⭐ starring the repo and sharing it wi
 ## 📃 License
 
 This project is licensed under the MIT License.
+=======
+# ats-resume-builder
+>>>>>>> 179a33fcc1c5bb15c78a8e675834f9a6d482a3958
