@@ -11,9 +11,9 @@ import {
 
 const firebaseConfig = {
   apiKey: "AIzaSyCfttCQROxHjhKAGOeVqvSgfXvECkyK2kQ",
-  authDomain: "resumebuilder-bc049.firebaseapp.com",
-  projectId: "resumebuilder-bc049",
-  storageBucket: "resumebuilder-bc049.firebasestorage.app",
+  authDomain: "atsresumebuilder-main.firebaseapp.com",
+  projectId: "atsresumebuilder-main",
+  storageBucket: "atsresumebuilder-main.appspot.com",
   messagingSenderId: "512714928984",
   appId: "1:512714928984:web:8d105083579877b72b6b2d",
   measurementId: "G-ER40S427L4"
